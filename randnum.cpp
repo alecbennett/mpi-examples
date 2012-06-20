@@ -19,6 +19,10 @@ int main (int argc, char* argv[]){
 	int randNumber;
 	
 	for (int i = 0 + id; i < 100; i += max){
+		/* 
+ 		 * Each task gets a different random number, but it is consistently generated
+		 * no matter how many tasks are used, thus can be reproduced
+		 */
 		srand(12345 + i);
 		std::cout << "Core: " << id << " Rep: " << i << " - Num: " << rand() << std::endl;
 	}
