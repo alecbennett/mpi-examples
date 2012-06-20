@@ -1,3 +1,9 @@
+/* 
+ * Title: randnum.cpp
+ * Author: Alec Bennett
+ * Description: Random number generation distributed across MPI tasks
+ */
+
 #include <iostream>
 #include <stdlib.h>
 #include "mpi.h"
